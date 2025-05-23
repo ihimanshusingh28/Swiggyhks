@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+    <div id="root"></div>
+    <!-- <script>
+        const heading = document.createElement("h1");
+
+        heading.innerHTML = "Hello World";
+        const root = document.getElementById("root");
+        root.appendChild(heading);
+    </script> -->  
+
+
+    <!-- Let's Use React for Printing Hello World in React -->
+    <script crossorigin 
+    src="https://unpkg.com/react@18/umd/react.development.js">
+    </script>
+
+    <script crossorigin
+     src="https://unpkg.com/react-dom@18/umd/react-dom.development.js">
+    </script>
+
+    <!-- We have to import different types of react files 
+     bcoz the first link is a core react and the second link(ReactDOM)
+      acts as a bridge between the browser And the React 
+      There are many superpowers that are hidden in the react and react dom 
+      link which we have to make good use of
+      
+      For Creating Element in React we use this syntax:
+      const elementName = React.createElement("name of tag", {object}, "What you have to write in React")-->
+    
+      <!-- <script>
+        const heading = React.createElement("h1",{},"This is react");
+
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+
+        root.render(heading);
+      </script> -->
+
+      <script src="app.js"></script>
+    </body>
+</html>
