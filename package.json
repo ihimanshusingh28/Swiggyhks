@@ -1,0 +1,28 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "This is React by Harsh Pal",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/er-harshpal/js-react.git"
+  },
+  "keywords": [
+    "react",
+    "namaste",
+    "harsh",
+    "pal"
+  ],
+  "author": "Harsh Pal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/er-harshpal/js-react/issues"
+  },
+  "homepage": "https://github.com/er-harshpal/js-react#readme",
+  "devDependencies": {
+    "parcel": "^2.15.1"
+  }
+}
