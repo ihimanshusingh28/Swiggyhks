@@ -6,7 +6,9 @@
     "start": "parcel index.html",
     "build": "parcel build index.html",
     "test": "jest",
-    "build:css": "npx tailwindcss -i ./index.css -o ./dist/output.css --watch"
+    "build:css": "npx tailwindcss -i ./index.css -o ./dist/output.css --watch",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "author": "\"Harsh\"",
   "license": "ISC",
@@ -28,6 +30,7 @@
     "@testing-library/react": "^16.3.0",
     "autoprefixer": "^10.4.21",
     "babel-jest": "^30.0.0",
+    "gh-pages": "^6.3.0",
     "jest": "^30.0.0",
     "parcel": "^2.15.2",
     "postcss": "^8.5.4",
